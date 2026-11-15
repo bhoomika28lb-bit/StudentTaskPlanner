@@ -111,6 +111,11 @@ StudentTaskPlanner/
 
 ![View Tasks Page](viewTaskPage.png)
 
+# Download Project
+
+Download the WAR file:
+[StudentTaskPlanner.war](StudentTaskPlanner.war)
+
 # Future Enhancements
 
 - Task priority management
