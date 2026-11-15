@@ -116,6 +116,12 @@ StudentTaskPlanner/
 Download the WAR file:
 [StudentTaskPlanner.war](StudentTaskPlanner.war)
 
+# Run Locally
+
+The application runs locally using Apache Tomcat.
+
+**Local URL:** http://localhost:8096/StudentTaskPlanner/
+
 # Future Enhancements
 
 - Task priority management
