@@ -1,11 +1,11 @@
 # Student Task Planner
 
-## About the Project
 Student Task Planner is a web-based application developed to help students organize their academic tasks, manage deadlines, and track their task completion status.
 
-Students can register, log in, add tasks, view their tasks, update task status, and delete tasks.
+The application allows users to register, log in, add tasks, view their personal tasks, mark tasks as completed, and delete tasks.
 
-## Features
+# Features
+
 - User Registration
 - User Login and Logout
 - Add New Tasks
@@ -14,68 +14,110 @@ Students can register, log in, add tasks, view their tasks, update task status, 
 - Mark Tasks as Completed
 - Delete Tasks
 - User-specific Task Management
+- Session-based User Authentication
 
-## Technologies Used
+# Technologies Used
 
-**Frontend:**
-- HTML
-- CSS
-- JSP
-
-**Backend:**
 - Java
 - Servlet API
+- JSP (JavaServer Pages)
 - JDBC API
-
-**Database:**
 - MySQL
-
-**Tools:**
-- Eclipse IDE
+- HTML5
+- CSS3
 - Apache Tomcat
-- Git and GitHub
+- Eclipse IDE
 
-## Project Structure
+# Project Structure
 
-```text
 StudentTaskPlanner/
+│
 ├── src/
 │   └── com/studentplanner/
 │       ├── connection/
+│       │   └── DBConnection.java
+│       │
 │       ├── dao/
+│       │   ├── UserDAO.java
+│       │   └── TaskDAO.java
+│       │
 │       ├── dto/
+│       │   ├── UserDTO.java
+│       │   └── TaskDTO.java
+│       │
 │       └── servlet/
+│           ├── RegisterServlet.java
+│           ├── LoginServlet.java
+│           ├── LogoutServlet.java
+│           ├── AddTaskServlet.java
+│           ├── ViewTasksServlet.java
+│           ├── CompleteTaskServlet.java
+│           └── DeleteTaskServlet.java
+│
 ├── WebContent/
 │   ├── css/
+│   │   └── style.css
 │   ├── index.jsp
 │   ├── register.jsp
 │   ├── login.jsp
+│   ├── dashboard.jsp
 │   ├── addTask.jsp
 │   └── viewTasks.jsp
+│
 └── README.md
-```
 
-*Adjust the structure above if your actual Eclipse project uses different folders.*
 
-## Database Configuration
+# Database Configuration
+
 1. Create a MySQL database named `student_planner_db`.
 2. Create the required `users` and `tasks` tables.
-3. Configure your database connection in `DBConnection.java`.
-4. Run the application using Apache Tomcat.
+3. Configure your MySQL username and password in `DBConnection.java`.
+4. Make sure the MySQL JDBC driver is added to your project.
 
-## How to Run
+# How to Run
+
 1. Clone or download this repository.
-2. Import the project into Eclipse.
-3. Configure Apache Tomcat.
-4. Configure the MySQL database.
-5. Run the project on the server.
-6. Open the application in your browser.
+2. Import the project into Eclipse IDE.
+3. Configure Apache Tomcat Server.
+4. Create the MySQL database and required tables.
+5. Update the database credentials in `DBConnection.java`.
+6. Add the MySQL Connector/J library if it is not already included.
+7. Run the project on Apache Tomcat Server.
+8. Open the application in your browser.
 
-## Author
-Developed as a Java Full Stack project.
+# Website Preview
 
-## Future Enhancements
-- Task search and filtering
+# 1. Home Page
+
+![Home Page](screenshots/home-page.png)
+
+# 2. Registration Page
+
+![Registration Page](screenshots/register-page.png)
+
+# 3. Login Page
+
+![Login Page](screenshots/login-page.png)
+
+# 4. Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+# 5. Add Task Page
+
+![Add Task Page](screenshots/add-task.png)
+
+# 6. View Tasks Page
+
+![View Tasks Page](screenshots/view-tasks.png)
+
+# Future Enhancements
+
 - Task priority management
-- Study progress tracking
-- Dashboard with task statistics
+- Search and filter tasks
+- Improved dashboard with task statistics
+- Email reminders for upcoming deadlines
+
+# Developed By
+
+Developed as a Java Web Development project using Java, Servlet API, JSP, JDBC, and MySQL.
