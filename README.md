@@ -97,7 +97,7 @@ StudentTaskPlanner/
 
 # 3. Register Page
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](registerPage.png)
 
 # 4. Dashboard Page
 
