@@ -87,29 +87,29 @@ StudentTaskPlanner/
 
 # Website Preview
 
-# 1. Home Page
+# 1. Index Page
 
-![Home Page](screenshots/home-page.png)
+![Index Page](indexPage.png)
 
-# 2. Registration Page
+# 2. Login Page
 
-![Registration Page](screenshots/register-page.png)
+![Login Page](loginPage.png)
 
-# 3. Login Page
-
-![Login Page](screenshots/login-page.png)
-
-# 4. Dashboard
+# 3. Register Page
 
 ![Dashboard](screenshots/dashboard.png)
 
+# 4. Dashboard Page
+
+![Dashboard](dashbordPage.png)
+
 # 5. Add Task Page
 
-![Add Task Page](screenshots/add-task.png)
+![Add Task Page](addTaskPage.png)
 
 # 6. View Tasks Page
 
-![View Tasks Page](screenshots/view-tasks.png)
+![View Tasks Page](viewTaskPage.png)
 
 # Future Enhancements
 
